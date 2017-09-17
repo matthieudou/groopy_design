@@ -1,0 +1,14 @@
+// ====================================
+// Overriding the bootstrap variables =
+// ====================================
+// every variables in vendor/twbs/bootstrap/scss/_variables.scss is customizable.
+// https://getbootstrap.com/docs/4.0/getting-started/options/
+
+
+// temporaire
+$blue: $main-color;
+
+
+// typo
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-monospace: 'Lato', sans-serif;
