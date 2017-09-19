@@ -123,7 +123,7 @@
 
 .footer {
   border-top: 2px solid #fccc22;
-  margin-top: 100px; }
+  height: 100px; }
   .footer-links {
     margin-top: 20px; }
     .footer-links ul.list-inline {
@@ -135,10 +135,13 @@
         color: black; }
   .footer .copyright {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    justify-content: space-around;
+    margin-top: 20px;
     text-align: center;
     color: black; }
+
+.main {
+  min-height: calc(100vh - 100px); }
 
 .StripeElement {
   background-color: white;
