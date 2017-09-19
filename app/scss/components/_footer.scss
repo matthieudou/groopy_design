@@ -1,0 +1,26 @@
+.footer{
+  border-top: 2px solid $main-color;
+  margin-top: 100px;
+  
+  &-links{
+    margin-top: $main-margin;
+    & ul.list-inline{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      text-transform: uppercase;
+      
+      & li a{
+        color: black;
+      }
+    }
+  }
+  
+  & .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 2*$main-margin;
+    text-align: center;
+    color: black;
+  }
+}
