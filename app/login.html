@@ -10,6 +10,42 @@
   </head>
   <body>
     
+    <!-- Button trigger modal -->
+    <button id="modalButton" type="button" class="btn btn-primary sharp" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <!-- content of the modal itself ➡️ in this case the form -->
+          <div class="modal-body">
+            <div class="container">
+              <!-- design of the modal header -->
+              <div class="login-header">
+                <div class="login-header-line"></div>
+                <!-- titre de la section -->
+                <div class="login-header-title">
+                  <h6>Connexion</h6>
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nom d'utilisateur">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Mot de passe">
+                </div>
+                <button type="submit" class="btn btn-primary sharp text-uppercase">Connexion</button>
+              </form>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

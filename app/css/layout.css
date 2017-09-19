@@ -12,6 +12,9 @@
   background-position: 50% 50%;
   min-height: 300px; }
 
+.modal-footer {
+  border-top: none !important; }
+
 .modal-title {
   min-width: 50%;
   max-width: 80%;
@@ -55,9 +58,6 @@
   border: black 1px solid;
   max-width: 90%;
   padding: 15px; }
-
-.modal-footer {
-  border-top: none !important; }
 
 .showbox {
   position: absolute;
@@ -143,6 +143,9 @@
 .main {
   min-height: calc(100vh - 100px); }
 
+.btn-primary {
+  color: white !important; }
+
 .StripeElement {
   background-color: white;
   padding: 8px 12px;
@@ -160,6 +163,26 @@
 
 .StripeElement--webkit-autofill {
   background-color: #fefde5 !important; }
+
+.login-header {
+  height: 150px; }
+  .login-header-title {
+    width: 110px;
+    height: 110px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #fccc22;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px; }
+  .login-header-line {
+    margin: 0 auto;
+    border-bottom: #fccc22 solid 3px;
+    background-color: transparent;
+    height: 50%; }
 
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)

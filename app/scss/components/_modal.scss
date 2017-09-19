@@ -9,6 +9,10 @@
   min-height: 300px;
 }
 
+.modal-footer{
+  border-top: none !important;
+}
+
 .modal-title{
   min-width: 50%;
   max-width: 80%;
@@ -60,8 +64,4 @@
     max-width: 90%;
     padding: 15px;
   }
-}
-
-.modal-footer{
-  border-top: none !important;
 }
