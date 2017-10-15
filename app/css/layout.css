@@ -3,6 +3,52 @@
 .sharp {
   border-radius: 0 !important; }
 
+.margin-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.margin-horisontal {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.margin-left {
+  margin-left: 20px; }
+
+.margin-right {
+  margin-right: 20px; }
+
+.margin-top {
+  margin-top: 20px; }
+
+.margin-bottom {
+  margin-bottom: 20px; }
+
+.padding-vertical {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padding-horisontal {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.padding-left {
+  padding-left: 20px; }
+
+.padding-right {
+  padding-right: 20px; }
+
+.padding-top {
+  padding-top: 20px; }
+
+.padding-bottom {
+  padding-bottom: 20px; }
+
+.color {
+  background-color: #B0BEC5; }
+
+.color-secondary {
+  background-color: #FFAB91; }
+
 .modal-content {
   border-radius: 0 !important; }
 
@@ -145,6 +191,52 @@
 
 .btn-primary {
   color: white !important; }
+
+.um-card {
+  height: 12rem;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative; }
+
+.um-card-span {
+  position: absolute;
+  bottom: 0; }
+
+.um-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .um-card-content span {
+    height: 20px;
+    position: absolute;
+    bottom: calc(100% - 10px);
+    left: 0;
+    right: 0;
+    text-align: center; }
+  .um-card-content h2 {
+    color: #fccc22;
+    font-size: 2rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+  .um-card-content p {
+    color: black;
+    font-size: 12px; }
+
+.um-card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+  .um-card-link:hover {
+    opacity: 0.1; }
 
 .StripeElement {
   background-color: white;
